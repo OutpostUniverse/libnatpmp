@@ -39,6 +39,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #include <io.h>
+#define ssize_t SSIZE_T
 #ifndef EWOULDBLOCK
 #define EWOULDBLOCK WSAEWOULDBLOCK
 #endif
